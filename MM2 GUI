@@ -1,0 +1,352 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+	
+	
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.134759352, 0, 0.0738362819, 0)
+Frame.Size = UDim2.new(0, 595, 0, 397)
+Frame.Active = true
+Frame.Draggable = true
+
+
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+TextLabel.Position = UDim2.new(0, 0, 0.00251889159, 0)
+TextLabel.Size = UDim2.new(0, 595, 0, 45)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 3.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.Position = UDim2.new(0.0107719926, 0, -0.00872093067, 0)
+TextLabel_2.Size = UDim2.new(0, 136, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "MM2 GUI"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 40.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextLabel_3.Position = UDim2.new(0.010771987, 0, 0.139542207, 0)
+TextLabel_3.Size = UDim2.new(0, 582, 0, 331)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton.Position = UDim2.new(0.0261665806, 0, 0.179075599, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "GUI #1"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 40.000
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+
+end)
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_2.Position = UDim2.new(0.0261665881, 0, 0.33411926, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "GUI #2"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 40.000
+TextButton_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/NwbndAwB'))()
+
+end)
+
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_3.Position = UDim2.new(0.0261665583, 0, 0.643203437, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "GUI #4"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 40.000
+TextButton_3.MouseButton1Down:connect(function()
+	wait(0.3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Gui outdated !";
+		Text = "Esp Run Xray and god mode(Cant shoot) Only works! ";
+	})
+
+	loadstring(game:HttpGet("https://pastebin.com/raw/YSAaLDmK", true))()
+end)
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_4.Position = UDim2.new(0.0261665843, 0, 0.49206987, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "GUI #3"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 40.000
+TextButton_4.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+
+end)
+
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_5.Position = UDim2.new(0.0261665583, 0, 0.794336915, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Kinx Hub"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 40.000
+TextButton_5.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/kinx/main/loader",true))()
+	print ("Lol skidded shit")
+end)
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_6.Position = UDim2.new(0.389191777, 0, 0.177208424, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Alpha X "
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 40.000
+TextButton_6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://alpha1004.tech/scripts/AlphaX.lua"))()
+wait(0.3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "MM2 GUI!";
+		Text = "Toggle key is shift";
+	})
+end)
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_7.Position = UDim2.new(0.389191777, 0, 0.333379716, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Owl Hub"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 40.000
+TextButton_7.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+wait(0.3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "MM2 GUI";
+		Text = "This will not work if you loaded GUI#1";
+	})
+
+end)
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_8.Position = UDim2.new(0.389191777, 0, 0.4920699, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Free Emotes"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 40.000
+TextButton_8.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xcjzjzr8", true))()
+
+end)
+
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_9.Position = UDim2.new(0.389191777, 0, 0.643203378, 0)
+TextButton_9.Size = UDim2.new(0, 200, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Audio Logger"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 40.000
+TextButton_9.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FJJZWs8r"))()
+wait(0.3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "MM2 GUI";
+		Text = "Scan in the workspace to get the ID's , you can also enable auto scan.";
+	})
+end)
+
+TextButton_10.Parent = Frame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextButton_10.Position = UDim2.new(0.389191777, 0, 0.794336915, 0)
+TextButton_10.Size = UDim2.new(0, 200, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "AutoFarm"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 40.000
+TextButton_10.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MsSk6utU", true))()
+
+end)
+
+
+TextButton_11.Parent = Frame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextButton_11.Position = UDim2.new(0.773109257, 0, 0.191435769, 0)
+TextButton_11.Size = UDim2.new(0, 104, 0, 56)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Alt Delete"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 29.000
+TextButton_11.MouseButton1Down:connect(function()
+	local Plr = game:GetService("Players").LocalPlayer
+	local Mouse = Plr:GetMouse()
+
+	Mouse.Button1Down:connect(function()
+		if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftAlt) then return end
+		if not Mouse.Target then return end
+		Mouse.Target:Destroy()
+	end)
+
+wait(0.3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "MM2 GUI";
+		Text = "Hold Alt and click where you want to delete (Client Sided).";
+	})
+
+end)
+
+
+TextButton_12.Parent = Frame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextButton_12.Position = UDim2.new(0.773109257, 0, 0.372795939, 0)
+TextButton_12.Size = UDim2.new(0, 104, 0, 56)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "LessLag"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextSize = 29.000
+TextButton_12.MouseButton1Down:connect(function()
+wait(0.3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "MM2 GUI";
+		Text = "Removing Textures..(Might Freeze)";
+	})
+
+wait (0.10)
+	loadstring(game:HttpGet("https://pastebin.com/raw/gX9mR85X", true))()
+end)
+
+
+TextButton_13.Parent = Frame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextButton_13.Position = UDim2.new(0.773109257, 0, 0.556675076, 0)
+TextButton_13.Size = UDim2.new(0, 104, 0, 56)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "Reviz"
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextSize = 29.000
+TextButton_13.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/pyzjWNhk'),true))()
+end)
+
+TextButton_14.Parent = Frame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+TextButton_14.Position = UDim2.new(0.773109257, 0, 0.735516369, 0)
+TextButton_14.Size = UDim2.new(0, 104, 0, 56)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Discord"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextSize = 29.000
+TextButton_14.MouseButton1Down:connect(function()
+setclipboard("https://discord.gg/u2spnqkKVc")
+
+wait(0.3)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "MM2 GUI";
+		Text = "Discord Invite has been copied.";
+	})
+end)
+	
+	
+TextButton_15.Parent = Frame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_15.Position = UDim2.new(0.907563031, 0, 0.00251889159, 0)
+TextButton_15.Size = UDim2.new(0, 55, 0, 45)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "X"
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextSize = 60.000
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 3.000
+TextLabel_4.Position = UDim2.new(0.347899169, 0, -0.0100755664, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Toggle Key P"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 40.000
+
+print ("Use Krnl or synapse for the best experince")
+print ("Loading GUI")
+
+local function KJVHZ_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.FRAME.Visible = true
+	end)
+end
+coroutine.wrap(KJVHZ_fake_script)()
+
+
+
+
+
+---------------this is toggle gui script 
+local function MLNJ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+ 
+	local frame = script.Parent -- path to the frame
+	local mouse = game:GetService('Players').LocalPlayer:GetMouse(); -- we need the mouse object, which also has the keyboard
+ 
+	mouse.KeyDown:connect(function(key) -- whenever a key is pushed down
+		key = key:lower() -- i do this in all my key events, though i don't remember why
+		if key == 'p' then -- if key pressed is h
+			frame.Visible = not frame.Visible -- flip between visible/invisible
+		end
+	end)
+end
+coroutine.wrap(MLNJ_fake_script)()
+
+
+
+
+print ("Loaded, Enjoy!")
