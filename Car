@@ -1,0 +1,11 @@
+if game.Players.LocalPlayer.Character.Humanoid.Seated == true then  --[ Detects if your humanoid is currently sitting or not ]--
+if game.Players.LocalPlayer.Character.Humanoid.SeatPart.Anchored == true then --[ It then detects if the SeatPart is Anchored ]--
+game.Players.LocalPlayer.Character.Humanoid.SeatPart.Anchored = false --[ Changes the value to false so now the seat is UnAnchored ]--
+end
+end
+end
+
+if game.Players.LocalPlayer.Character.Humanoid.Seated == true then
+game.Players.LocalPlayer.Humanoid.RootPart.Anchored = true
+game.Players.LocalPlayer.PlayerScripts.ControlScript.Disabled = true -- I think this disables you from moving though
+end
